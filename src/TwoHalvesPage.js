@@ -4,10 +4,14 @@ import Careers from './smallScreens/Careers'; // Assuming you renamed the file t
 
 const TwoHalvesPage = () => {
   return (
-    <div style={{ display: 'flex', height: '100vh' }}>
-      <Gaming />
-      <Careers />
+    <div style={{
+      display: 'flex',
+      height: '75vh',
+    }}>
+        <Gaming />
+        <Careers />
     </div>
+
   );
 };
 

@@ -59,3 +59,20 @@ nav ul li a {
   color: whitesmoke;
   text-decoration: none;
 }
+
+
+.slanted-line {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  /* Adjust the left position as needed */
+  width: 2px;
+  /* Adjust the width of the dividing line */
+  height: 100%;
+  background-color: #000;
+  /* Adjust the color of the dividing line */
+  transform: skewY(-10deg);
+  /* Adjust the degree of skew as needed */
+  transform-origin: top;
+  /* Skew from the top */
+}
